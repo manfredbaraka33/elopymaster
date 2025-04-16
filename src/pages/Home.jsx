@@ -5,7 +5,7 @@ import Contacts from '../components/Contacts'
 
 const Home = () => {
   return (
-   <div  className="contanier-fluid p-2">
+   <div  className="container-fluid p-2">
     <div style={{backgroundColor:"rgba(0, 0, 0, 0.8)"}} className='row fixed-top pt-3'>
     <center>
         <div className="col-lg-10 col-sm-12  col-md-10 mt-3 ">
