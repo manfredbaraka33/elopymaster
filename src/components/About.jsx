@@ -39,7 +39,7 @@ const About = () => {
             <div className="row">
             <center>
             <div className="col mx-0"> 
-            <div className = "about-me rounded p-3 slide-in-fast"  data-aos="slide-left">
+            <div className = "about-me rounded p-3 slide-in-fast"  data-aos="flip-up">
             <h4 className='text-warning' ref={typedRef}></h4>
             <p>Hi! I’m <strong>Manfred Baraka</strong>, a multidisciplinary tech professional based in <strong>Dodoma, Tanzania</strong>.</p>
 
@@ -54,12 +54,12 @@ const About = () => {
             </div>
 
 
-          <div data-aos="slide-right" className="container-fluid about-me rounded mt-3">
+          <div data-aos="flip-up" className="container-fluid about-me rounded mt-3">
           
               <Skills />
         </div>
 
-        <div data-aos="slide-left" className="about-me rounded mt-3 others">
+        <div data-aos="flip-up" className="about-me rounded mt-3 others">
             <Education />
         </div>
 
