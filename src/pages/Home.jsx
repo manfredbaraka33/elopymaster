@@ -5,10 +5,9 @@ import Contacts from '../components/Contacts'
 
 const Home = () => {
   return (
-   <div  className="container-fluid p-2">
-    <div class="navbar navbar-expand-sm fixed-top pt-3 justify-content-center">
+   <div  className="contanier-fluid p-2">
+    <nav  class="navbar navbar-expand-sm  justify-content-center fixed-top pt-3">
     
-        <>
         <ul className="nav nav-tabs   justify-content-center" id="inputTab" role="tablist">
         <li className="nav-item" role="presentation">
           <button className="nav-link active border-light"  id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab">
@@ -27,9 +26,7 @@ const Home = () => {
         </li>
       </ul>
       
-    <>
-    
-    </div>
+    </nav>
 
     <div className="tab-content container-fluid py-5" id="inputTabContent">
         <br /><br />
@@ -52,6 +49,3 @@ const Home = () => {
 }
 
 export default Home
-
-
-
