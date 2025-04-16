@@ -1,0 +1,64 @@
+.logo{
+  width: 65px;
+  height: 65px;
+}
+
+.img-container{
+  border-radius: 50%;
+  width: 70px;
+  background-color: aliceblue;
+}
+
+.mypic img{
+  width: 150px;
+  height: 150px;
+}
+
+.about-me, .cont{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+@keyframes float {
+  0% { transform: translatey(0px); }
+  50% { transform: translatey(-10px); }
+  100% { transform: translatey(0px); }
+}
+
+.mypic img {
+  animation: float 4s ease-in-out infinite;
+}
+
+.skill-badge:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #27eb16;
+  transition: all 0.3s ease;
+}
+
+@keyframes slideInLeftFast {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-in-fast {
+  animation: slideInLeftFast 0.4s ease-out;
+}
+
+.others:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #27eb16;
+  transition: all 0.3s ease;
+}
+.pj:hover {
+  box-shadow: 0 0 15px #e09109;  /* Gold glowing effect */
+  transition: all 0.3s ease-in-out;  /* Smooth transition */
+}
+
+
+
+
