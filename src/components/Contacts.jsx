@@ -8,7 +8,7 @@ const Contacts = () => {
         <div className="row justify-content-center">
         <div className="col-md-6 mb-4 cont rounded mx-2">
           <div className=" text-light p-4">
-            <h5>📞 WhatsApp</h5>
+            <h5><i class="bi bi-whatsapp"></i> WhatsApp</h5>
             <p>
               <a href="https://wa.me/255712750468" className="text-decoration-none text-light" target="_blank" rel="noopener noreferrer">
                 +255 712 750 468
